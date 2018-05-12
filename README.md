@@ -13,3 +13,7 @@
 ## Strategy 
 O padrão Strategy define uma família de algoritmos, encapsula cada um e os fazem intercâmbiaveis. 
 Strategy deixa o algoritmo variar independente dos clientes que o usam 
+
+## Observer Pattern
+O Observer Pattern  define uma dependencia one-to-many entre os objetos para que quando um objeto mudar os estado, todos seus dependentes sejam notificados e atualizados automaticamente. 
+
