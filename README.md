@@ -17,4 +17,4 @@ Strategy deixa o algoritmo variar independente dos clientes que o usam
 ## Observer Pattern
 O Observer Pattern  define uma dependencia one-to-many entre os objetos para que quando um objeto mudar os estado, todos seus dependentes sejam notificados e atualizados automaticamente. 
 
-![alt text](https://github.com/guilhermeNatan/dessingpatterns/blob/master/imagens/observerpattern.png)
+![alt text](imagens/observerpattern.png)
