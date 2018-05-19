@@ -52,7 +52,7 @@ saber que o observador implementa a interface 'observer' e como registrar um nov
 	
 ## Decorator Pattern 	
 
- O principio básico do Decorator pattern é a adição de camadas a um determinado objeto que irão adicionar um determinado comportamento em runtime.
+ O  principio básico do Decorator pattern é a adição de camadas a um determinado objeto que irão adicionar um determinado comportamento em runtime.
  Sendo assim não é necessario ficar adicionando novo código sempre que surgir num novo comportamento.   
  ![alt text](imagens/decoratorpattern.png)
 
