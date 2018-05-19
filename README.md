@@ -49,3 +49,23 @@ saber que o observador implementa a interface 'observer' e como registrar um nov
     These relationships aren’t set up by some kind of     
     inheritance hierarchy. No, they are set up at     
     runtime by composition!`
+	
+## Decorator Pattern 	
+
+ O principio básico do Decorator pattern é a adição de camadas a um determinado objeto que irão adicionar um determinado comportamento em runtime.
+ Sendo assim não é necessario ficar adicionando novo código sempre que sugir num novo comportamento.   
+ ![alt text](imagens/decoratorpatternabstração.png)
+ 
+ [código que ilusta o decorrator pattern](/src/decorator/Teste.java);
+ 
+ ![alt text](imagens/decoratorpattern.png)
+ [veja aqui explicação com imagens do código exemplo](imagens/decoratorpatterexplicacao.pdf)
+ 
+ IMPORTANTE: O decorator pattern pode ser um padrão mais complexo de se identificar, o que vale é sempre nos preocuparmos 
+ em indentivar as partes do projeto que vale a pena aplicar um determinado pardrão e assim o fazer. 
+ 
+ 
+ ##### [Príncipios de padrões] Classes should be open for extension, but closed for modification.
+  open: Feel free to extend our classes with any new behavior you like. If your needs or requirements change (and we know they will), just go ahead and make your own extensions.
+  closed: That’s right, we spent a lot of time getting this code correct and bug free, so we can’t let you alter the existing code. It must remain closed to modification
+  
