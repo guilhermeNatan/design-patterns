@@ -53,14 +53,14 @@ saber que o observador implementa a interface 'observer' e como registrar um nov
 ## Decorator Pattern 	
 
  O principio básico do Decorator pattern é a adição de camadas a um determinado objeto que irão adicionar um determinado comportamento em runtime.
- Sendo assim não é necessario ficar adicionando novo código sempre que sugir num novo comportamento.   
+ Sendo assim não é necessario ficar adicionando novo código sempre que surgir num novo comportamento.   
+ ![alt text](imagens/decoratorpattern.png)
+
  ![alt text](imagens/decoratorpatternabstração.png)
  
- [código que ilusta o decorrator pattern](/src/decorator/Teste.java);
- 
- ![alt text](imagens/decoratorpattern.png)
- [explicação com imagens do código exemplo](imagens/decoratorpatterexplicacao.pdf)
- 
+ * [código que ilusta o decorrator pattern](/src/decorator/Teste.java);
+ * [explicação com imagens do código exemplo](imagens/decoratorpatterexplicacao.pdf)
+  
  IMPORTANTE: O decorator pattern pode ser um padrão mais complexo de se identificar, o que vale é sempre nos preocuparmos 
  em indentivar as partes do projeto que vale a pena aplicar um determinado pardrão e assim o fazer. 
  
