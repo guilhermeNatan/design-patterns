@@ -17,12 +17,13 @@ O Observer Pattern  define uma dependencia one-to-many entre os objetos para que
 
 ![alt text](imagens/observerpattern.png)
 
+
 ##### [Príncipios de padrões] Strive for loosely coupled designs between objects that interact.
 No padrão observer tanto o observador(assinante) quanto sujeito(editora) podem sofrer mudanças de forma que um não afeta o outro
 o observador precisa saber apenas que o sujeito implementa uma interface 'subject' e o sujeito precisa apenas 
 saber que o observador implementa a interface 'observer' e como registrar um novo observador na sua lista de observadores 
 
-
+###Como o Observer Pattern aplica os alguns príncipios de padrões de projeto . 
 **Identify the aspects of your application that vary and separate them from what stays the same.**
 
 ` The thing that varies in the Observer Pattern       
@@ -43,8 +44,7 @@ saber que o observador implementa a interface 'observer' e como registrar um nov
   
   **Favor composition over inheritance.** 
   
-`  O observador tem um sujeito, e o sujeito tem uma lista de observadores . 
-    The Observer Pattern uses composition to compose  
+`   The Observer Pattern uses composition to compose  
     any number of Observers with their Subjects.        
     These relationships aren’t set up by some kind of     
     inheritance hierarchy. No, they are set up at     
