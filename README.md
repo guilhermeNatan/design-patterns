@@ -58,7 +58,7 @@ saber que o observador implementa a interface 'observer' e como registrar um nov
 
  ![alt text](imagens/decoratorpatternabstração.png)
  
- * [código que ilusta o decorrator pattern](/src/decorator/Teste.java);
+ * [código que ilusta o decorrator pattern](https://github.com/guilhermeNatan/dessingpatterns/tree/master/src/decorator);
  * [explicação com imagens do código exemplo](imagens/decoratorpatterexplicacao.pdf)
   
  IMPORTANTE: O decorator pattern pode ser um padrão mais complexo de se identificar, o que vale é sempre nos preocuparmos 
