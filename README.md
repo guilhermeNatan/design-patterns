@@ -74,5 +74,5 @@ saber que o observador implementa a interface 'observer' e como registrar um nov
  - Pode introduzir uma grande quantidade de classes pequenas no código, o que pode almetar a complexidade de entendimento do código
  - Normalmente você pode inserir decoradores de forma transparente e o cliente nunca precisa saber que está lidando com um decorador, mas pode haver trechos de código 
  que dependem de um tipo especifico e isso pode ser um problema quando vc começa introduzir decoradores. 
- -A introdução de decoradores pode aumentar a complexidade do código necessário para instanciar o componente. Depois de ter decoradores, 
+ - A introdução de decoradores pode aumentar a complexidade do código necessário para instanciar o componente. Depois de ter decoradores, 
  você precisa não apenas instanciar o componente, mas também envolvê-lo com quem sabe quantos decoradores.
