@@ -71,6 +71,7 @@ saber que o observador implementa a interface 'observer' e como registrar um nov
   
  
 
+
 #### Alguns cuidados com Decorator Pattern 
  - Pode introduzir uma grande quantidade de classes pequenas no código, o que pode almetar a complexidade de entendimento do código
  - Normalmente você pode inserir decoradores de forma transparente e o cliente nunca precisa saber que está lidando com um decorador, mas pode haver trechos de código 
